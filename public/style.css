@@ -1,0 +1,118 @@
+
+.flexbox {
+  display: flex;
+}
+
+.flexbox-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home {
+  width: 70%;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-links a {
+  margin: 10px 0;
+}
+
+.auth-box {
+  padding: 1rem 5rem;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.create-post button {
+  margin-top: 20px !important;
+}
+
+.input {
+  margin: 1rem 0;
+}
+
+.auth-header {
+  background-color: lightgray;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+}
+
+.spacing-top {
+  margin-top: 0px !important;
+}
+
+.auth-divider {
+  padding-top: 1rem;
+}
+
+.login-box {
+  margin-top: 30px;
+}
+
+.home-content {
+  width: 100%;
+}
+
+.home-content h1 {
+  font-size: 15px;
+  margin: 25px 0;
+  padding-top: 22px;
+}
+
+.ui.card,
+.ui.cards > .card {
+  box-shadow: none !important;
+}
+
+.delete-post {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-button {
+  margin-left: 10px !important;
+}
+
+.log-out {
+  margin-top: 20px !important;
+}
+
+.send-container {
+  width: 40%;
+  margin: 30px auto;
+}
+
+.search-bar {
+  padding-bottom: 10px;
+  
+}
+
+.ui.card > .content,
+.ui.cards > .card > .content {
+  padding: 0.7em !important;
+}
+
+.centered-table {
+  width: 50% !important;
+  margin: 0 auto !important;
+  margin-top: 20px !important;
+}
+
+.top-page-spacing {
+  padding-top: 30px;
+}
+
+.account-link {
+  margin-top: 15px;
+}
